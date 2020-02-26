@@ -20,3 +20,4 @@ use Illuminate\Http\Request;
 Route::post('/author', "AuthorController@addAuthor");
 Route::post('/book/create', "BookController@addBook");
 Route::delete('/book/delete', "BookController@deleteBook");
+Route::get('/book', "BookController@getBook" );
